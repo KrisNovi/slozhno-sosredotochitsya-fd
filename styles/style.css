@@ -252,6 +252,11 @@
 
   .grid-vertical .content__title {
     grid-column: 1;
+    max-width: 100%;
+  }
+
+  .grid-vertical .content__text-item {
+    max-width: 100%;
   }
 
   .content__position-third .title-decor {
@@ -322,6 +327,10 @@
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .grid-vertical {
+    column-gap: 10px;
   }
 
   .grid-horizontal {

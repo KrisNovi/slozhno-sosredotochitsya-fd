@@ -18,7 +18,7 @@
 .theme-dark .rec-element::before {
   content: "REC";
   display: block;
-  color: var(--accent-color);
+  color: var(--accent-color, #ff0070);
   font-family: inherit;
   font-weight: 400;
   font-size: var(--main-font-size);
