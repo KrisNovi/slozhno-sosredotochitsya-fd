@@ -255,10 +255,6 @@
     max-width: 100%;
   }
 
-  .grid-vertical .content__text-item {
-    max-width: 100%;
-  }
-
   .content__position-third .title-decor {
     grid-column: 2;
     min-width: 100%;
