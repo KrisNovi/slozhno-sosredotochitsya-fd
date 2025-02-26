@@ -2,18 +2,11 @@
   --main-text-color: #353430;
   --bg-color: #fff1f7;
   --bg-image: url(/images/cover-image-light.png);
+  --menu-and-subtitle-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.4);
+  --subtitle-text-color: #353430;
   --accent-color: #ff8dcb;
   --header-title-color: #ffc2e6;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-text-color: #353430;
-    --bg-color: #fff1f7;
-    --bg-image: url(/images/cover-image-light.png);
-    --accent-color: #ff8dcb;
-    --header-title-color: #ffc2e6;
-  }
 }
 
 .theme-light .rec-element::before {
@@ -24,43 +17,18 @@
   display: none;
 }
 
-.theme-light .content__title {
-  color: var(--main-text-color);
-}
-
-.theme-light .title-decor {
-  color: var(--main-text-color, #353430);
-}
-
-.theme-light .decorated-zone::before {
-  border-color: var(--main-text-color);
-}
-
-.theme-light .decorated-zone::after {
-  border-color: var(--main-text-color);
-}
-
-.theme-light .content__subtitle-decor {
-  color: var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 1px solid rgba(50, 49, 45, 0.4);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--main-text-color);
-}
-
 @media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --bg-color: #fff1f7;
+    --bg-image: url(/images/cover-image-light.png);
+    --menu-and-subtitle-color: #353430;
+    --outline-color: rgba(50, 49, 45, 0.4);
+    --subtitle-text-color: #353430;
+    --accent-color: #ff8dcb;
+    --header-title-color: #ffc2e6;
+  }
+
   .theme-light .rec-element::before {
     display: none;
   }
@@ -69,35 +37,11 @@
     display: none;
   }
 
-  .theme-light .content__title {
-    color: var(--main-text-color);
+  .theme-auto .rec-element::before {
+    display: none;
   }
 
-  .theme-light .title-decor {
-    color: var(--main-text-color);
-  }
-
-  .theme-light .decorated-zone::before {
-    border-color: var(--main-text-color);
-  }
-
-  .theme-light .decorated-zone::after {
-    border-color: var(--main-text-color);
-  }
-
-  .theme-light .content__subtitle-decor {
-    color: var(--main-text-color);
-  }
-
-  .theme-light .header__theme-menu-button {
-    color: var(--main-text-color);
-  }
-
-  .theme-light .header__theme-menu-button:hover {
-    outline: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .theme-light .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--main-text-color);
+  .theme-auto .rec-element::after {
+    display: none;
   }
 }

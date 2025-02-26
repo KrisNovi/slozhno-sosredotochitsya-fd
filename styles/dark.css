@@ -2,39 +2,11 @@
   --main-text-color: #f1b2ce;
   --bg-color: #000028;
   --bg-image: url(/images/cover-image-dark.png);
+  --menu-and-subtitle-color: #FF0070;
+  --outline-color: rgba(255, 0, 112, 0.4);
+  --subtitle-text-color: #000028;
   --accent-color: #ff0070;
   --header-title-color: #db00ff;
-}
-
-.rec-element {
-  position: absolute;
-  top: var(--padding-mobile);
-  right: 19px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.theme-dark .rec-element::before {
-  content: "REC";
-  display: block;
-  color: var(--accent-color, #ff0070);
-  font-family: inherit;
-  font-weight: 400;
-  font-size: var(--main-font-size);
-  line-height: 138.889%;
-  text-align: center;
-}
-
-.theme-dark .rec-element::after {
-  content: "";
-  display: block;
-  border-color: var(--accent-color);
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px #ff0070;
-  background-color: var(--accent-color);
-  inline-size: 9px;
-  block-size: 9px;
 }
 
 @media (width >= 768px) {
