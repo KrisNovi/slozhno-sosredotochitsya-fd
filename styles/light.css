@@ -17,6 +17,14 @@
   display: none;
 }
 
+.theme-auto .rec-element::before {
+  display: none;
+}
+
+.theme-auto .rec-element::after {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --main-text-color: #353430;
