@@ -9,19 +9,15 @@
   --header-title-color: #ffc2e6;
 }
 
+.theme-light .rec-element {
+  display: none;
+}
+
 .theme-light .rec-element::before {
   display: none;
 }
 
 .theme-light .rec-element::after {
-  display: none;
-}
-
-.theme-auto .rec-element::before {
-  display: none;
-}
-
-.theme-auto .rec-element::after {
   display: none;
 }
 
@@ -52,4 +48,5 @@
   .theme-auto .rec-element::after {
     display: none;
   }
+
 }

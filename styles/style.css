@@ -28,8 +28,8 @@
   top: var(--padding-mobile, 10px);
   right: var(--padding-mobile, 10px);
   display: block;
-  border-inline-end: 1px solid var(--menu-and-subtitle-color, #FF0070);
-  border-block-start: 1px solid var(--menu-and-subtitle-color, #FF0070);
+  border-inline-end: 1px solid var(--menu-and-subtitle-color, #ff0070);
+  border-block-start: 1px solid var(--menu-and-subtitle-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -40,8 +40,8 @@
   bottom: var(--padding-mobile, 10px);
   left: var(--padding-mobile, 10px);
   display: block;
-  border-inline-start: 1px solid var(--menu-and-subtitle-color, #FF0070);
-  border-block-end: 1px solid var(--menu-and-subtitle-color, #FF0070);
+  border-inline-start: 1px solid var(--menu-and-subtitle-color, #ff0070);
+  border-block-end: 1px solid var(--menu-and-subtitle-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -89,7 +89,10 @@
   grid-row: 2;
   color: var(--header-title-color, #db00ff);
   font-weight: 700;
-  font-size: var(--header-font-size-mobile, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+  font-size: var(
+    --header-font-size-mobile,
+    clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem)
+  );
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
 }
@@ -115,7 +118,7 @@
   border: none;
   padding: 1px 13px;
   vertical-align: middle;
-  color: var(--menu-and-subtitle-color, );
+  color: var(--menu-and-subtitle-color);
   font-weight: 400;
   font-size: var(--main-font-size);
   line-height: 118%;
@@ -124,7 +127,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--menu-and-subtitle-color, #FF0070);
+  border: 1px solid var(--menu-and-subtitle-color, #ff0070);
 }
 
 .header__theme-menu-button:hover {
@@ -136,7 +139,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--menu-and-subtitle-color, #FF0070);
+  border-block-end: 1px solid var(--menu-and-subtitle-color, #ff0070);
 }
 
 .content {
@@ -156,7 +159,7 @@
 
 .content__title {
   display: block;
-  color: var(--menu-and-subtitle-color, #FF0070);
+  color: var(--menu-and-subtitle-color, #ff0070);
   font-size: var(--main-font-size, 18px);
   max-block-size: fit-content;
 }
@@ -255,7 +258,10 @@
   }
 
   .header-footer__title {
-    font-size: var(--header-font-size-desktop, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
+    font-size: var(
+      --header-font-size-desktop,
+      clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+    );
   }
 
   .header .header-footer__title {
