@@ -28,4 +28,8 @@
   .theme-auto .rec-element {
     display: none;
   }
+
+  .theme-light .rec-element {
+    display: none;
+  }
 }
