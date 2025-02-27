@@ -55,28 +55,6 @@
   gap: 10px;
 }
 
-.rec-element::before {
-  content: "REC";
-  display: block;
-  color: var(--accent-color, #ff0070);
-  font-family: inherit;
-  font-weight: 400;
-  font-size: var(--main-font-size, 18px);
-  line-height: 138.889%;
-  text-align: center;
-}
-
-.rec-element::after {
-  content: "";
-  display: block;
-  border-color: var(--accent-color, #ff0070);
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px #ff0070;
-  background-color: var(--accent-color, #ff0070);
-  inline-size: 9px;
-  block-size: 9px;
-}
-
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
