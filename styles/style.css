@@ -66,6 +66,7 @@
   display: block;
   grid-row: 2;
   color: var(--header-title-color, #db00ff);
+  font-family: var(--main-font-family, "IBM Plex Mono"), sans-serif;
   font-weight: 700;
   font-size: var(
     --header-font-size-mobile,
