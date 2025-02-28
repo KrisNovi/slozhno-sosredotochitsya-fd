@@ -1,7 +1,7 @@
 :root.theme-dark {
   --main-text-color: #f1b2ce;
   --bg-color: #000028;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --menu-and-subtitle-color: #ff0070;
   --outline-color: rgba(255, 0, 112, 0.4);
   --subtitle-text-color: #000028;
@@ -9,48 +9,6 @@
   --header-title-color: #db00ff;
 }
 
-.theme-dark .rec-element::before {
-  content: "REC";
-  display: block;
-  color: var(--accent-color, #ff0070);
-  font-family: inherit;
-  font-weight: 400;
-  font-size: var(--main-font-size, 18px);
-  line-height: 138.889%;
-  text-align: center;
-}
-
-  .theme-dark .rec-element::after {
-  content: "";
-  display: block;
-  border-color: var(--accent-color, #ff0070);
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px #ff0070;
-  background-color: var(--accent-color, #ff0070);
-  inline-size: 9px;
-  block-size: 9px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .rec-element::before {
-    content: "REC";
-    display: block;
-    color: var(--accent-color, #ff0070);
-    font-family: inherit;
-    font-weight: 400;
-    font-size: var(--main-font-size, 18px);
-    line-height: 138.889%;
-    text-align: center;
-  }
-  
-    .rec-element::after {
-    content: "";
-    display: block;
-    border-color: var(--accent-color, #ff0070);
-    border-radius: 50%;
-    box-shadow: 0px 0px 4px #ff0070;
-    background-color: var(--accent-color, #ff0070);
-    inline-size: 9px;
-    block-size: 9px;
-  }
+.theme-dark .rec-element {
+  display: flex;
 }
