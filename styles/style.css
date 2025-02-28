@@ -71,7 +71,7 @@
   display: block;
   border-color: var(--accent-color, #ff0070);
   border-radius: 50%;
-  box-shadow: 0px 0px 4px #ff0070;
+  box-shadow: 0px 0px 4px 2px #ff0070;
   background-color: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
@@ -152,7 +152,7 @@
   padding: 0 var(--padding-mobile, 10px);
 }
 
-.content__position-up {
+.content__section-why {
   display: grid;
   grid-row: 1;
   gap: 20px;
@@ -209,13 +209,13 @@
   margin-block-start: 10px;
 }
 
-.content__position-middle {
+.content__reasons {
   display: grid;
   grid-row: 2;
   gap: 20px;
 }
 
-.content__position-low {
+.content__advices {
   display: grid;
   grid-row: 3;
   gap: 20px;
@@ -322,16 +322,16 @@
     grid-column: 2/3;
   }
 
-  .content__position-low .title-decor {
+  .content__advices .title-decor {
     grid-column: 2;
     min-width: 100%;
   }
 
-  .grid-main-content-middle {
+  .grid-main-content-variation {
     grid-template-rows: min-content 1fr;
   }
 
-  .grid-main-content-middle .content__title {
+  .grid-main-content-variation .content__title {
     display: flex;
     grid-row: 1;
     inline-size: 30%;
@@ -396,11 +396,11 @@
     grid-column: 2/4;
   }
 
-  .grid-main-content-middle {
+  .grid-main-content-variation {
     grid-template-rows: min-content 1fr;
   }
 
-  .grid-main-content-middle .content__title {
+  .grid-main-content-variation .content__title {
     grid-row: 1/2;
     inline-size: 30%;
   }
